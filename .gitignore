@@ -1,0 +1,6 @@
+/data/
+/lda_filtered_articles/
+/sample_data/
+/word2vec_models/
+.DS_Store
+.vscode
