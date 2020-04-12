@@ -41,3 +41,6 @@ Project Instructions
 3. Train LDA model with train_lda.py
 4. Use LDA model with process_wiki.py to split corpus by major topics
 5. Train word2vec model on each topic-dependent corpus with train_word2vec.py
+6. For downstream classification tasks, you can load a Word2Vec model with gensim.models.KeyedVectors
+    - E.g., w2v = gensim.models.KeyedVectors.load('word2vec_0_wv.model')
+    - Then get numpy word vector with w2v[word]
